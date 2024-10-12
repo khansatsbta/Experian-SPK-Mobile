@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Rank TextView -->
+    <TextView
+        android:id="@+id/textRank"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Rank"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <!-- Nama TextView -->
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Nama"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <!-- Pendapatan TextView -->
+    <TextView
+        android:id="@+id/textPendapatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pendapatan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <!-- Tanggungan TextView -->
+    <TextView
+        android:id="@+id/textTanggungan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tanggungan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <!-- Umur TextView -->
+    <TextView
+        android:id="@+id/textUmur"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Umur"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <!-- Kekayaan TextView -->
+    <TextView
+        android:id="@+id/textKekayaan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kekayaan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <!-- Hasil WP TextView -->
+    <TextView
+        android:id="@+id/textHasilWP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Hasil WP"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>

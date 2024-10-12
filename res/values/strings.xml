@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">menu_nav</string>
+    <string-array name="MenuNavigation">
+        <item>Home</item>
+        <item>Input Data</item>
+        <item>Record</item>
+        <item>Ranking</item>
+        <item>About</item>
+    </string-array>
+</resources>
